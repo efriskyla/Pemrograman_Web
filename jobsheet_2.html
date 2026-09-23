@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Explorer</title>
+</head>
+<body>
+
+  <h1>Product Explorer</h1>
+
+<input type="text" id="search-input" placeholder="Cari produk...">
+
+<select id="category-select">
+    <option value="all">Semua Kategori</option>
+</select>
+
+<select id="sort-select">
+    <option value="default">Urutan Default</option>
+    <option value="price-asc">Harga Terendah</option>
+    <option value="price-desc">Harga Tertinggi</option>
+    <option value="rating">Rating Tertinggi</option>
+    <option value="title">Nama A-Z</option>
+</select>
+
+<div id="product-list"></div>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
